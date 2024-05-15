@@ -1,0 +1,28 @@
+{
+  "name": "javascript-common-utils",
+  "version": "1.0.0",
+  "description": "packages of common utils using javascript",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test",
+    "build:esm": "babel src --out-dir esm",
+    "build:cjs": "babel src --out-dir cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jungtaeinn/javascript-common-utils.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "jungtaeinn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jungtaeinn/javascript-common-utils/issues"
+  },
+  "homepage": "https://github.com/jungtaeinn/javascript-common-utils#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/preset-env": "^7.24.5"
+  }
+}
