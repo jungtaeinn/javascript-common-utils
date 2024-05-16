@@ -1,8 +1,9 @@
 {
   "name": "javascript-common-utils",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "packages of common utils using javascript",
-  "main": "src/index.js",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
   "scripts": {
     "test": "test",
     "build:esm": "babel src --out-dir esm",
